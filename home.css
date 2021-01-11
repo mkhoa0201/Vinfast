@@ -1,0 +1,230 @@
+
+header {
+    background-color: #E0E1E2;
+    height: 130px;
+    padding: 0 10%;
+}
+
+.header-bottom .header-bottom-child {
+    width: 33%;
+    float: left;
+}
+
+.left-logo {
+    line-height: 80px;
+    font-weight: bold;
+}
+
+.right-logo {
+    text-align: right;
+    
+}
+
+.right-logo button {
+    background-color: #CC0001;
+    height: 30px;
+    width: 90px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+
+.right-logo a {
+    text-decoration: none;
+    color: yellow;
+}
+
+
+nav {
+    background-color: #494949;
+    height: 40px;
+}
+
+nav ul {
+    margin: 0;
+    height: 40px;
+    padding: 0;
+    margin: auto;
+    width: 500px;
+    
+}
+
+nav li  {
+    list-style-type: none;
+    float: left;
+    padding: 0 20px;
+    line-height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav li a {
+    color: yellow;
+    display: block;
+    text-decoration: none;
+}
+
+
+.banner {
+    background-image: url('vinfast-suv-by-pininfarina3.jpg');
+    background-size:cover;
+    height: 350px;
+    padding-top: 30px;
+    position: relative;
+}
+
+.banner .welcome {
+    margin: 0;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin-bottom: 50px;
+}
+
+
+.float-left {
+    float: left;
+}
+
+
+
+.slogon {
+    background-color: white;
+    height: 100px;
+    width: 80%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    bottom: 0px;
+}
+
+.slogon-wrapper {
+    width: 150px;
+    margin: auto;
+}
+
+.slogon button {
+    margin-top: 19.920px;
+    margin-left: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.slogon p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content {
+    margin: 0 10%;
+    height: 500px;
+    
+}
+
+.box-content {
+    width: 33%;
+    float: left;
+    padding-top: 100px;
+}
+
+.box-top .box-top-img {
+    float: left;
+}
+
+.box-top .box-top-img img {
+    height: 150px;
+}
+
+.box-top-content {
+    padding-top: 50px;
+}
+
+.box-top-content div {
+    font-size: 40px;
+}
+
+.box-top-content span {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.box-bottom p {
+    font-size: 20px;
+}
+
+.search {
+    height: 100px;
+    border-top: 1px gray solid;
+    padding-top: 20px;
+    background-color: rgb(241, 226, 226);
+    position: relative;
+}
+
+.search-wrapper {
+    width: 80%;
+    margin: auto;
+    
+}
+
+.search-wrapper input {
+    width: 500px;
+    height: 60px;
+    font-family:Arial;
+}
+
+.search-wrapper input::placeholder {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.search-wrapper button {
+    background-color: #CC0001;
+    height: 30px;
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 0;
+}
+
+.search-wrapper-child {
+    width: 610px;
+    margin: auto;
+}
+
+.h-search {
+    position: absolute;
+    border-top: 0px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    top: -29px;
+    background-color: rgb(241, 226, 226);
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 400px;
+    height: 0px;
+}
+
+.h-search h2 {
+    margin: auto;
+    text-align: center;
+
+}
+
+footer {
+    text-align: center;
+    background-color: #ce2323;
+    font-size: 12px;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
